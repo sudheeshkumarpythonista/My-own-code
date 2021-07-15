@@ -1,2 +1,2 @@
 # My-own-code
-Here you can find my code to extract the previous date log files like the  log file such as catalina.out
+This code is used to extract the previous date log lines in a file such as catalina.out 
