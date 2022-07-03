@@ -1,0 +1,9 @@
+import boto3
+pin=boto3.client('pinpoint',region_name='eu-west-1')
+
+
+def lambda_handler(event,context):
+    response = pin.get_app(
+    ApplicationId='String'
+    )
+    return response
